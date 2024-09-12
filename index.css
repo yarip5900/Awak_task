@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    background-image: url('/image.png'); /* Background image URL */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex; /* Uses Flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin */
+  }
+  
+  /* Styling for the login container */
+  .login-container {
+    background-color: rgba(117, 11, 191, 0.8); /* Translucent background color (adjust opacity as needed) */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 20px 30px 30px 25px rgba(0, 0.5, 0.5, 0.5); /* Shadow effect for depth */
+    width: 300px; /* Fixed width */
+    max-width: 100%; /* Ensures container doesn't exceed viewport width */
+  }
+  
+  /* Styling for the form heading */
+  h2 {
+    text-align: center; /* Centers the heading text */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  /* Styling for labels */
+  label {
+    display: block; /* Makes labels block-level elements */
+    margin-bottom: 5px; /* Space below the label */
+  }
+  
+  /* Styling for input fields */
+  input {
+    width: 100%; /* Full width of the container */
+    padding: 8px; /* Padding inside the input */
+    margin-bottom: 10px; /* Space below the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Styling for buttons */
+  button {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Styling for error messages */
+  .error-message {
+    color: red; /* Red color for error messages */
+    font-size: 12px; /* Smaller font size for error messages */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 600px) {
+    .login-container {
+      width: 90%; /* Adjust container width for smaller screens */
+    }
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Character encoding for the document -->
+  <meta charset="UTF-8">
+  <!-- Viewport settings for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the page -->
+  <title>Login Page</title>
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- Container for the login form -->
+  <div class="login-container">
+    <!-- Login form element -->
+    <form id="loginForm">
+      <!-- Form heading -->
+      <h2>Login</h2>
+      <!-- Email input field -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <span class="error-message" id="emailError"></span> <!-- Error message for email field -->
+      </div>
+      <!-- Password input field -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <span class="error-message" id="passwordError"></span> <!-- Error message for password field -->
+      </div>
+      <!-- Submit button for the form -->
+      <div class="form-group">
+        <button type="submit">Login</button>
+      </div>
+      <!-- Checkbox for showing/hiding password -->
+      <div class="form-group">
+        <input type="checkbox" id="showPassword"> Show Password
+      </div>
+    </form>
+  </div>
+  <!-- Link to external JavaScript file -->
+  <script src="index.js"></script>
+</body>
+
+</html>
